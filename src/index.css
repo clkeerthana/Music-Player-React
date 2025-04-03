@@ -1,0 +1,19 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Make body full-screen */
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #121212, #282828); /* Dark theme */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

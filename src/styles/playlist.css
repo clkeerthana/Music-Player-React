@@ -1,0 +1,92 @@
+.playlist-page {
+    width: 100%;
+    position:absolute;
+    left:0;
+    top:0;
+    height: 100vh;
+    background-color: #181818;
+    padding: 20px;
+    overflow-y: auto; /* Allows scrolling if the list is long */
+    color: white;
+  }
+  
+  .playlist-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+  }
+ h1{
+    margin-bottom:30px;
+ }
+  
+  .playlist-cover {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .song-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Ensures text stays at the top */
+  }
+  
+  .song-link {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-size: 18px;
+    gap:15px;
+  }
+
+  
+  .song-link:hover {
+    color: #fff000;
+  }
+
+  .top-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically align the items */
+    width: 100%; /* Ensure it takes the full width */
+    padding: 10px 20px; /* Add some spacing for top */
+    position: sticky; /* Keep it fixed at the top */
+    top: 0;
+    z-index: 10;
+  }
+  
+/* Style for the favourite link */
+.fav-div {
+  margin-bottom: 20px;
+  font-size: 18px;
+  margin-left:-15px;
+  
+}
+
+.fav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.fav-link:hover {
+  color: #fff000;
+}
+
+/* Position logout div at the right */
+.logout-div {
+  margin-bottom: 35px;
+  font-size: 15px;
+  margin-right:-10px;
+}
+
+.logout-link {
+  color: white;
+  text-decoration: none;
+}
+
+.logout-link:hover {
+  color: #fff000;
+}
